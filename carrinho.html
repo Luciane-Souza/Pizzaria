@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="imagem.png" href="img\logo-pizza.png">
+    <title>Casa de Massas Napolli</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/cardapio.css">
+
+</head>
+
+    <body>  <div id="config-nav">
+        <nav class="nav navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="home_page.html"> <img src="img/logo-pizza1.png"
+                            alt="Logotipo Pizzaria"></a>
+
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="home_page.html">Casa de Massas Napolli</a></li>
+                    <li><a href="home_page.html">Home</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="quem_somos.html">Quem Somos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="carrinho.html"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho</a>
+                    </li>
+                    <li><a href="cadastrar.html"><span class="glyphicon glyphicon-user"></span>Cadastrar</a>
+                    </li>
+                    <li><a href="entrar.html"><span class="glyphicon glyphicon-log-in"></span> Entrar</a>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Sair</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+        <div class="container">
+            <div class="container-fluid">
+                <div class="panel panel-warning">
+                    <div class="panel-text-title">
+                        <h1 class="text-center text-uppercase"><span class="glyphicon glyphicon-shopping-cart text-center"></span>Carrinho</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="panel panel-warning">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="panel-img">
+                                <a href="cardapio.html"><img class="img-responsive img-circle" src="img/cardapio/calabresa.jpg" alt="Imagem da Pizza de Calabresa"></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="panel-text">
+                                <h1 class="text-uppercase">Calabresa</h1>
+                                <hr>
+                                <div class="panel-informatiom">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="pedido-qtde-1">Qtde.:</br></label>
+                                            <input type="number" min="0" max="10" class="form-control pedido-qtde" id="pedido-qtde-1" placeholder="Ex: 1">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div class="panel-img">
+                                    <a href="cardapio.html"><img class="img-responsive img-circle" src="img/cardapio/marguerita.jpg" alt="Imagem da Pizza de Marguerita"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="panel-text">
+                                    <h1 class="text-uppercase">Marguerita</h1>
+                                    <hr>
+                                    <div class="panel-informatiom">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="pedido-qtde-2">Qtde.:</br></label>
+                                                <input type="number" min="0" max="10" class="form-control pedido-qtde" id="pedido-qtde-2" placeholder="Ex: 1">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="panel panel-warning">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="panel-img">
+                                <a href="cardapio.html"><img class="img-responsive img-circle" src="img/cardapio/napolitana.jpg" alt="Imagem da Pizza de Napolitana"></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel-text">
+                                <h1 class="text-uppercase">Napolitana</h1>
+                                <hr>
+                                <div class="panel-informatiom">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="pedido-qtde-3">Qtde.:</br></label>
+                                            <input type="number" min="0" max="10" class="form-control pedido-qtde" id="pedido-qtde-3" placeholder="Ex: 1">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div class="panel-img">
+                                    <a href="cardapio.html"><img class="img-responsive img-circle" src="img/cardapio/lasanha.jpg" alt="Imagem de um sabor de Lasanha"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="panel-text">
+                                    <h1 class="text-uppercase">Lasanhas</h1>
+                                    <hr>
+                                    <div class="panel-informatiom">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="pedido-qtde-4">Qtde.:</br></label>
+                                                <input type="number" min="0" max="10" class="form-control pedido-qtde" id="pedido-qtde-4" placeholder="Ex: 1">
+                                                </br>
+                                                <label for="pedido-sabor-1">Escolha o sabor:</br></label>
+                                                <input type="text" class="form-control pedido-sabor" id="pedido-sabor-1" placeholder="Ex: Lasanha de Camarão">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="panel panel-warning">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="panel-img">
+                                <a href="cardapio.html"><img class="img-responsive img-circle" src="img/cardapio/nhoque.jpg" alt="Imagem de um sabor de Nhoque"></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="panel-text">
+                                <h1 class="text-uppercase">Nhoques</h1>
+                                <hr>
+                                <div class="panel-informatiom">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="pedido-qtde-5">Qtde.:</br></label>
+                                            <input type="number" min="0" max="10" class="form-control pedido-qtde" id="pedido-qtde-5" placeholder="Ex: 1">
+                                            </br>
+                                            <label for="pedido-sabor-2">Escolha o sabor:</br></label>
+                                            <input type="text" class="form-control pedido-sabor" id="pedido-sabor-2" placeholder="Ex: Nhoque à Matricana">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div class="panel-img">
+                                    <a href="cardapio.html"><img class="img-responsive img-circle" src="img/cardapio/fettuccine.jpg" alt="Imagem da Pizza de Napolitana"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="panel-text">
+                                    <h1 class="text-uppercase">Fettuccines</h1>
+                                    <hr>
+                                    <div class="panel-informatiom">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="pedido-qtde-6">Qtde.:</br></label>
+                                                <input type="number" min="0" max="10" class="form-control pedido-qtde" id="pedido-qtde-6" placeholder="Ex: 1">
+                                                </br>
+                                                <label for="pedido-sabor-3">Escolha o sabor:</br></label>
+                                                <input type="text" class="form-control pedido-sabor" id="pedido-sabor-3" placeholder="Ex: Fettuccine Vegetariano">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="panel panel-warning">
+                <div class="panel-text-title">
+                    <h1 class="text-center text-uppercase">Para confirmar seu pedido você deve fazer o <a href="entrar.html"><button class="btn btn-success" type="button">Log in</button></a></h1>
+                </div>
+            </div>
+            <div class="panel panel-warning">
+                <div class="panel-text-title">
+                    <h1 class="text-center text-uppercase">Se não tiver um cadastro em nosso site, você pode se <a href="cadastrar.html"><button class="btn btn-success" type="button">Cadastrar</button></a></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <footer>
+                <div class="footer-logo">
+                    <a href="home_page.html"><img src="img/logo-pizza.png" alt="Logo da Pizzaria Napolli"></a>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li>
+                            <button><a href="home_page.html">Home</a>
+                        </li>
+                        <li>
+                            <button><a href="quem_somos.html">Quem Somos</a>
+                        </li>
+                        <li>
+                            <button><a href="contatos.html">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-contatos">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank"><img src="img/logo-instagram.png" alt="Link para nossa página no Instagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank"><img src="img/logo-facebook.png" alt="Link para nossa página no Facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com" target="_blank"><img src="img/logo-youtube.png" alt="Link para nosso canal no Youtube"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-copyright">
+                    <p>- 2020 &copy Copyright - Casa de Massas Napolli <br> Todos os direitos reservados</p>
+                </div>
+            </footer>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </body>
+
+</html>
